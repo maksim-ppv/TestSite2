@@ -1,0 +1,127 @@
+<header id="header" class="header">
+
+    <div class="bg">
+        <img src="./img/header.png" alt="">
+    </div>
+
+    <navbar class="navbar">
+        <div class="container">
+            <div class="navbar__content">
+                <a href="#" class="logo">
+                    <img src="./img/logo.png" alt="logo" />
+                    <span class="logo__name">COMMERCIAL<BR />PROPERTY</span>
+                </a>
+                <div class="menu row">
+                    <div class="display_none-mobile row menu__profile">
+                        <div class="profile__image online">
+                            <img src="./img/profile.png" alt="" />
+                        </div>
+                        <div class="profile__info">
+                            <div class="profile__name">Алина Макеева </div>
+                            <span class="profile__email">@gmail.com</span>
+                        </div>
+                    </div>
+                    <ul class="menu-items row">
+                        <li class="display_none-mobile row messenger menu__messenger line"><a href="#" class="menu-item">Сообщения</a><span class="messenger-quantity">5</span></li>
+                        <li><a href="#" class="menu-item">Купить</a></li>
+                        <li><a href="#" class="menu-item">СНЯТЬ</a></li>
+                        <li><a href="#" class="menu-item">Инвестировать</a></li>
+                        <li><a href="#" class="menu-item">Услуги</a></li>
+                        <li><a href="#" class="menu-item">Контакты</a></li>
+                        <li class="display_none-mobile login menu__login line"><a href="#" class="menu-item">Выход</a></li>
+                    </ul>
+                    <div class="menu-socials row">
+                        <div class="menu-social messenger"><img src="./img/sms.svg" alt="" /></div>
+                        <div class="menu-social search"><img src="./img/search.svg" alt="" /></div>
+                        <div class="menu-social login"><img src="./img/profile.svg" alt="" /></div>
+                    </div>
+                </div>
+                <div class="burger">
+                    <button class="menu-button" aria-label="Menu">
+                        <span class="menu-button__line"></span>
+                        <span class="menu-button__line"></span>
+                        <span class="menu-button__line"></span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </navbar>
+
+    <div class="container row header__body">
+        <div class="header__main">
+            <h1 class="header__title">
+                <span class="bigText">Лучший выбор </span>
+                коммерческой недвижимости
+            </h1>
+            <div class="header__description"><span>Актуальные предложения</span> рынка недвижимости по всему миру</div>
+            <a href="#" class="button button__blue header__more">Узнать больше</a>
+        </div>
+        <div class="header__forms" data-move="main,0,578">
+            <form action="#" method="post" class="header__form">
+                <div class="row form__buttons">
+                    <button type="button" class="button form__button button-white form-border">СНЯТЬ</button>
+                    <button type="button" class="button form__button button-blue">Купить</button>
+                </div>
+                <div class="form__select">
+                    <label class="form__label" for="Country">Страна</label>
+                    <input type="hidden" name="Country" value="Россия" aria-label="Select">
+                    <div class="form__select-title spoiler form__input form-border">Россия</div>
+                    <div class="form__select-items spoiler_none">
+                        <div class="form__select-body my-scrollbar">
+                            <span class="select-item">Россия</span>
+                            <span class="select-item">Грузия</span>
+                            <span class="select-item">Турция</span>
+                            <span class="select-item">Греция</span>
+                            <span class="select-item">Чехия</span>
+                            <span class="select-item">Южная Америка</span>
+                            <span class="select-item">Северная Америка</span>
+                            <span class="select-item">Австралия</span>
+                            <span class="select-item">Европа</span>
+                            <span class="select-item">Азия</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="form__select">
+                    <label class="form__label" for="Premises">Категория</label>
+                    <input type="hidden" name="Premises" value="Офисные помещения" aria-label="Select">
+                    <div class="form__select-title spoiler form__input form-border">Офисные помещения</div>
+                    <div class="form__select-items spoiler_none">
+                        <div class="form__select-body my-scrollbar">
+                            <span class="select-item">Офисные помещения</span>
+                            <span class="select-item">Жилые помещения</span>
+                            <span class="select-item">Складские помещения</span>
+                            <span class="select-item">Арендные помещения</span>
+                            <span class="select-item">Складские помещения</span>
+                            <span class="select-item">Пустые помещения</span>
+
+                        </div>
+                    </div>
+                </div>
+                <label class="form__label" for="range">Площадь</label>
+                <div class="form__range range">
+                    <output class="rangeto"></output>
+                    <input type="range" id="range" min="0" max="500000" step="1000" name="range"
+                    aria-label="range" value="125000" data-rangeslider />
+                    <div class="form__range-data">
+                        <span>0</span>
+                        <span class="fixNumber">500000</span>
+                    </div>
+                </div>
+                <label class="form__label" for="price">Цена руб. в месяц</label>
+                <div class="row form__inputs">
+                    <input type="text" class="form__input form__input-price form-border" name="price" placeholder="от">
+                    <input type="number" class="form__input form__input-price form-border" name="price" placeholder="до">
+                </div>
+                <div class="row form__filter">
+                    <span class="filter__text">Дополнительные фильтры</span>
+                    <div class="filter__image">
+                        <img src="./img/filter.svg" alt="" />
+                    </div>
+                        
+                </div>
+                <button class="button form__button form__button-search form-border">Найти</button>
+            </form>
+        </div>
+    </div>
+
+</header>

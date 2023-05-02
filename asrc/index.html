@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="description" content="Lorem ipsum">
+    <meta http-equiv="Cache-Control" content="max-age=86400, must-revalidate">
+    <link rel="shortcut icon" href="./img/favicon.png" type="image/png">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700;900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>Lorem ipsum</title>
+</head>
+
+<body>
+
+    <div id="cube-loader">
+        <div class="caption">
+            <div class="cube-loader">
+                <img class="preloader-logo" src="./img/logo.png" alt="" />
+            </div>
+        </div>
+    </div>
+    <div class="wrapper">
+
+        @@include('_header.html')
+        <main class="main">
+            <section class="advantages-offers">
+                <div class="bg">
+                    <img src="./img/bg.png" alt="">
+                </div>
+                <div class="container">
+                    <div class="slider__advantages swiper-container">
+                    <div class="row advantages swiper-wrapper">
+                        <div class="swiper-slide advantage">
+                            <div class="row advantage__top">
+                                <div class="advantage__img">
+                                    <img src="./img/1.svg" alt="" />
+                                </div>
+                                <div class="advantage__title">Представление интересов покупателя</div>
+                            </div>
+                            <ul class="advantage__list">
+                                <li>Анализ рынка</li>
+                                <li>Подбор объектов</li>
+                                <li>Технический аудит </li>
+                                <li>SWOT-анализ</li>
+                                <li>Поддержка и консультации на всех этапах сделки</li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide advantage">
+                            <div class="row advantage__top">
+                                <div class="advantage__img">
+                                    <img src="./img/2.svg" alt="" />
+                                </div>
+                                <div class="advantage__title">Управление недвижимостью</div>
+                            </div>
+                            <ul class="advantage__list">
+                                <li>Разработка стратегии</li>
+                                <li>Повышение доходности</li>
+                                <li>Оценка текущей деятельности</li>
+                                <li>Реконцепция актива</li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide advantage">
+                            <div class="row advantage__top">
+                                <div class="advantage__img">
+                                    <img src="./img/3.svg" alt="" />
+                                </div>
+                                <div class="advantage__title">Инвестиции в недвижимость</div>
+                            </div>
+                            <ul class="advantage__list">
+                                <li>Инвестиции во все сегменты недвижимости</li>
+                                <li>Арендный бизнес с высокой доходностью</li>
+                                <li>Покупка недвижимости под редевелопмент</li>
+                                <li>Соинвестирование строительства</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                    </div>
+                </div>
+                <div class="container offers__container">
+                    <h2 class="title offers__title">Популярные предложения по всему миру</h2>
+                    <div class="offers">
+                        <div class="offers__point europa" data-aos="fade-left" data-aos-delay="300"
+                            data-aos-easing="ease-out-cubic" data-aos-offset="250">
+                            <div class="point__img"><img src="./img/Europe.png" alt=""></div>
+                            <div class="point__name">Европа</div>
+                            <div class="point__text">7 850 предложений</div>
+                        </div>
+                        <div class="offers__point all-country" data-aos="fade-left" data-aos-delay="400"
+                        data-aos-easing="ease-out-cubic" data-aos-offset="250">
+                            <div class="point__img"><img src="./img/all.png" alt=""></div>
+                            <div class="point__name">Все предложения</div>
+                            <div class="point__text">10325 предложений</div>
+                        </div>
+                        <div class="offers__point australia" data-aos="fade-left" data-aos-delay="300"
+                        data-aos-easing="ease-out-cubic" data-aos-offset="250">
+                            <div class="point__img"><img src="./img/australia.png" alt=""></div>
+                            <div class="point__name">Австралия</div>
+                            <div class="point__text">25 предложений</div>
+                        </div>
+                        <div class="offers__point north-america" data-aos="fade-left" data-aos-delay="300"
+                        data-aos-easing="ease-out-cubic" data-aos-offset="150">
+                            <div class="point__img"><img src="./img/northamerica.png" alt=""></div>
+                            <div class="point__name">Северная Америка</div>
+                            <div class="point__text">1 370 предложений</div>
+                        </div>
+                        <div class="offers__point south-america" data-aos="fade-left" data-aos-delay="400"
+                        data-aos-easing="ease-out-cubic" data-aos-offset="150">
+                            <div class="point__img"><img src="./img/southamerica.png" alt=""></div>
+                            <div class="point__name">Южная Америка</div>
+                            <div class="point__text">260 предложений</div>
+                        </div>
+                        <div class="offers__point asia" data-aos="fade-left" data-aos-delay="500"
+                        data-aos-easing="ease-out-cubic" data-aos-offset="150">
+                            <div class="point__img"><img src="./img/asia.png" alt=""></div>
+                            <div class="point__name">Азия</div>
+                            <div class="point__text">820 предложений</div>
+                        </div>
+                    </div>
+                    <a href="#" class="display_none-mobile button button__blue offers__button_all-country">Все предложения</a>
+                </div>
+
+    </div>
+    </section>
+    </main>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="js/script.min.js"></script>
+</body>
+
+</html>

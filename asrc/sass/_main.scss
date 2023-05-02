@@ -1,0 +1,540 @@
+@media (min-width: 991.98px) {
+    .main {
+        position: relative;
+        margin-bottom: 4.583vw;
+    }
+
+    .advantages {
+        align-items: stretch;
+        margin-top: -10.417vw;
+        padding-bottom: 2.604vw;
+    }
+
+    .advantage {
+        background: linear-gradient(180deg, #1A2024 0%, #374253 100%);
+        width: 18.021vw;
+        padding: 1.51vw 0.99vw 0.781vw 1.146vw;
+    }
+
+    .advantage__top {
+        margin-bottom: 2.448vw;
+    }
+
+    .advantage__img img {
+        height: 2.76vw;
+    }
+
+    .advantage__title {
+        font-size: 1.146vw;
+        line-height: 1.302vw;
+        margin-left: 0.885vw;
+    }
+
+    .advantage__list li {
+        position: relative;
+        padding-left: 1.563vw;
+        font-size: 0.833vw;
+        line-height: 1.094vw;
+        margin-bottom: 1.094vw;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 0.469vw;
+            height: 0.469vw;
+            left: 0vw;
+            top: 0.26vw;
+
+            background: linear-gradient(180deg, #175EC7 0%, #0BC4FF 100%);
+            transform: matrix(-0.71, -0.7, -0.71, 0.7, 0, 0);
+        }
+    }
+    .swiper-slide{
+        height: auto;
+    }
+
+
+    //====================================================================================================================================
+
+
+    .title {
+        font-weight: 700;
+        font-size: 1.458vw;
+        line-height: 1.094vw;
+        color: $black;
+    }
+
+    .offers__title {
+        margin-bottom: 2.344vw;
+        margin-top: 2.604vw;
+    }
+
+    .offers {
+        display: grid;
+        grid-gap: 1.563vw;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: 7.813vw 11.458vw 7.813vw;
+        margin-bottom: 2.604vw;
+    }
+
+    .offers__point {
+        position: relative;
+        padding: 0.781vw 1.198vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        overflow: hidden;
+        cursor: pointer;
+        min-height: 7.813vw;
+    }
+
+    .europa {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .point__img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: 0.5s transform;
+
+        &:before {
+            content: '';
+            background: linear-gradient(180deg, rgba(36, 81, 148, 0) 47.38%, #1E69D9 100%);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+
+
+        }
+
+    }
+
+    .point__img img {
+        width: 100%;
+        object-fit: cover;
+
+    }
+
+    .offers__point:hover {
+        .point__img {
+            transition: 0.5s transform;
+            transform: scale(1.05)
+        }
+
+    }
+
+    .offers__button_all-country {
+        display: none;
+    }
+
+    .point__name {
+        font-weight: 700;
+        font-size: 1.302vw;
+        line-height: 1.458vw;
+        position: relative;
+    }
+
+    .point__text {
+        font-weight: 400;
+        font-size: 0.833vw;
+        line-height: 1.302vw;
+        position: relative;
+    }
+
+
+    .australia {
+        grid-column-start: 4;
+        grid-row-start: 2;
+        grid-row-end: 4;
+    }
+}
+
+
+//====================================================================================================================================
+//====================================================================================================================================
+
+
+
+@media (min-width: 576.98px) and (max-width: 991.981px) {
+    .main {
+        position: relative;
+        margin-bottom: 8.88vw;
+    }
+
+    .advantages {
+        align-items: stretch;
+        min-width: 0;
+    }
+
+    .advantage {
+        background: linear-gradient(180deg, #1A2024 0%, #374253 100%);
+        width: 34.914vw;
+        padding: 2.926vw 1.917vw 1.514vw 2.22vw;
+    }
+
+    .advantage__top {
+        margin-bottom: 3.734vw;
+    }
+
+    .advantage__img img {
+        height: 5.354vw;
+    }
+
+    .advantage__title {
+        font-size: 1.816vw;
+        line-height: 2.018vw;
+        margin-left: 1.715vw;
+    }
+
+    .advantage__list li {
+        position: relative;
+        padding-left: 3.027vw;
+        font-size: 1.413vw;
+        line-height: 1.715vw;
+        margin-bottom: 2.119vw;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 0.706vw;
+            height: 0.706vw;
+            left: 0vw;
+            top: 0.505vw;
+
+            background: linear-gradient(180deg, #175EC7 0%, #0BC4FF 100%);
+            transform: matrix(-0.71, -0.7, -0.71, 0.7, 0, 0);
+        }
+    }
+
+    //===============================================================
+
+    .slider__advantages {
+        max-width: 75.681vw;
+        margin: auto;
+        margin-top: -20.182vw;
+        padding-bottom: 5.045vw;
+        overflow: hidden;
+    }
+
+    .slider__advantages .swiper-pagination {
+        bottom: 0;
+    }
+
+    .slider__advantages .swiper-pagination-bullet {
+        background: #000000;
+        width: 1.11vw;
+        height: 1.11vw;
+    }
+
+    .slider__advantages .swiper-pagination-bullet-active {
+        background: linear-gradient(180deg, #175EC7 0%, #0BC4FF 100%);
+    }
+
+    .swiper-slide {
+        height: auto;
+    }
+
+    //====================================================================================================================================
+
+
+    .title {
+        font-weight: 700;
+        font-size: 2.523vw;
+        line-height: 2.119vw;
+        color: $black;
+    }
+
+    .offers__title {
+        margin-bottom: 4.541vw;
+        margin-top: 5.045vw;
+    }
+
+    .offers {
+        display: grid;
+        grid-gap: 2.523vw;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 15.136vw 15.136vw 15.136vw 15.136vw;
+        margin-bottom: 5.045vw;
+    }
+
+    .offers__point {
+        position: relative;
+        padding: 1.514vw 2.321vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .europa {
+        grid-row-start: 1;
+        grid-row-end: 3;
+        grid-column-start: 1;
+        grid-column-end: 4;
+    }
+
+    .point__img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: 0.5s transform;
+
+        &:before {
+            content: '';
+            background: linear-gradient(180deg, rgba(36, 81, 148, 0) 47.38%, #1E69D9 100%);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+
+
+        }
+
+    }
+
+    .point__img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .offers__point:hover {
+        .point__img {
+            transition: 0.5s transform;
+            transform: scale(1.05)
+        }
+
+    }
+
+    .offers__button_all-country {
+        display: none;
+    }
+
+    .point__name {
+        font-weight: 700;
+        font-size: 2.22vw;
+        line-height: 2.523vw;
+        position: relative;
+    }
+
+    .point__text {
+        font-weight: 400;
+        font-size: 1.413vw;
+        line-height: 2.523vw;
+        position: relative;
+    }
+
+    .all-country {
+        grid-column-start: 2;
+        grid-row-start: 4;
+
+    }
+
+    .australia {
+        grid-column-start: 3;
+        grid-row-start: 3;
+        grid-row-end: 5;
+    }
+}
+
+
+//====================================================================================================================================
+//====================================================================================================================================
+
+
+
+@media (max-width: 576.979px) {
+    .main {
+        position: relative;
+        padding-bottom: 23.467vw;
+        background: $white;
+    }
+
+    .advantages-offers .bg {
+        display: none;
+    }
+
+    .advantages {
+        align-items: stretch;
+        margin-top: 6.667vw;
+        padding-bottom: 8.533vw;
+        min-width: 0;
+    }
+
+    .advantage {
+        background: linear-gradient(180deg, #1A2024 0%, #374253 100%);
+        width: 92.267vw;
+        padding: 7.733vw 5.067vw 4vw 5.867vw;
+    }
+
+    .advantage__top {
+        margin-bottom: 9.867vw;
+    }
+
+    .advantage__img img {
+        height: 14.133vw;
+    }
+
+    .advantage__title {
+        font-size: 5.867vw;
+        line-height: 6.667vw;
+        margin-left: 4.533vw;
+    }
+
+    .advantage__list li {
+        position: relative;
+        padding-left: 8vw;
+        font-size: 3.733vw;
+        line-height: 4.533vw;
+        margin-bottom: 5.6vw;
+
+        &:before {
+            content: '';
+            position: absolute;
+            width: 1.867vw;
+            height: 1.867vw;
+            left: 0vw;
+            top: 1.333vw;
+
+            background: linear-gradient(180deg, #175EC7 0%, #0BC4FF 100%);
+            transform: matrix(-0.71, -0.7, -0.71, 0.7, 0, 0);
+        }
+    }
+
+    //===============================================================
+
+    .slider__advantages {
+        max-width: 200vw;
+        margin: auto;
+    }
+
+    .slider__advantages .swiper-pagination {
+        bottom: 0;
+    }
+
+    .slider__advantages .swiper-pagination-bullet {
+        background: #000000;
+        width: 2.667vw;
+        height: 2.667vw;
+    }
+
+    .slider__advantages .swiper-pagination-bullet-active {
+        background: linear-gradient(180deg, #175EC7 0%, #0BC4FF 100%);
+    }
+
+    .swiper-slide {
+        height: auto;
+    }
+
+    //====================================================================================================================================
+
+
+    .title {
+        font-weight: 700;
+        font-size: 5.867vw;
+        line-height: 6.667vw;
+        color: $black;
+        text-align: center;
+    }
+
+    .container.offers__container {
+        padding: 0;
+    }
+
+    .offers__title {
+        margin-bottom: 8.533vw;
+        margin-top: 12.267vw;
+    }
+
+    .offers {
+        display: grid;
+        grid-gap: 6.667vw;
+        grid-template-columns: 100vw;
+        grid-auto-rows: 54.667vw;
+        margin-bottom: 10.133vw;
+    }
+
+    .offers__point {
+        position: relative;
+        padding: 5.333vw 6.667vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: end;
+        overflow: hidden;
+        cursor: pointer;
+    }
+
+    .point__img {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        transition: 0.5s transform;
+
+        &:before {
+            content: '';
+            background: linear-gradient(180deg, rgba(36, 81, 148, 0) 47.38%, #1E69D9 100%);
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+
+
+        }
+
+    }
+
+    .point__img img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .offers__point:hover {
+        .point__img {
+            transition: 0.5s transform;
+            transform: scale(1.05)
+        }
+
+    }
+
+    .point__name {
+        font-weight: 700;
+        font-size: 6.667vw;
+        line-height: 7.467vw;
+        position: relative;
+    }
+
+    .point__text {
+        font-weight: 400;
+        font-size: 4.267vw;
+        line-height: 6.667vw;
+        position: relative;
+    }
+
+    .all-country {
+        display: none;
+    }
+
+    .offers__button_all-country.button {
+        display: flex;
+    }
+
+    .australia {
+        order: 5;
+    }
+}

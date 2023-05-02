@@ -1,0 +1,53 @@
+#cube-loader {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 1;
+    visibility: visible;
+    z-index: 999;
+    background: #10101D;
+    transition: 0.5s;
+    & .caption {
+      margin: auto;
+    }
+    .cube-loader {
+      width: 400px;
+      margin: auto;
+      height: 200px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: relative;
+      @media (max-width: 576.98px){
+        width: 200px;
+      }
+    }
+    .preloader-logo {
+      animation: cube 3s infinite alternate;
+      @media (max-width: 576.98px){
+        width: 125px;
+        height: 12px;
+      }
+    }
+
+
+
+    
+  };
+  #cube-loader.done {
+    transition: 0.5s;
+    z-index: 0;
+    opacity: 0;
+    visibility: hidden;
+  }
+  
+  @keyframes cube {
+    0% {
+      transform: scale(1);
+    }
+    100% {
+      transform: scale(1.3);
+    }
+}
