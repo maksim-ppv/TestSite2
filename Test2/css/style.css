@@ -610,6 +610,7 @@ button {
     margin-left: 0.365vw;
   }
 
+  .logo picture,
   .logo img {
     height: 2.604vw;
     width: 2.604vw;
@@ -2948,6 +2949,8 @@ button {
     margin-left: 1.867vw;
   }
 
+  .logo picture,
+  .logo picture,
   .logo img {
     height: 10.667vw;
     width: 10.667vw;
@@ -3838,6 +3841,7 @@ button {
     margin-left: 0.706vw;
   }
 
+  .logo picture,
   .logo img {
     height: 4.04vw;
     width: 4.04vw;
