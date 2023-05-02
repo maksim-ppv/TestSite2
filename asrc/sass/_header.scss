@@ -53,8 +53,8 @@
     }
 
     .logo img {
-        height: 100%;
-        object-fit: cover;
+        height: 2.604vw;
+        width: 2.604vw;
     }
 
     .menu {
@@ -205,6 +205,7 @@
         line-height: 1.563vw;
         text-transform: uppercase;
         background: $white;
+        color: $black;
         border: 0.104vw solid #4185EA;
     }
 
@@ -457,7 +458,8 @@
     }
 
     .logo img {
-        height: 100%;
+        height: 4.04vw;
+        width: 4.04vw;
     }
 
     .menu {
@@ -622,6 +624,7 @@
         line-height: 3.027vw;
         text-transform: uppercase;
         background: $white;
+        color: $black;
         border: 0.202vw solid #4185EA;
     }
 
@@ -876,7 +879,8 @@
     }
 
     .logo img {
-        height: 100%;
+        height: 10.667vw;
+        width: 10.667vw;
     }
 
     .menu {
@@ -1129,6 +1133,7 @@
         line-height: 8vw;
         text-transform: uppercase;
         background: $white;
+        color: $black;
         border: 0.533vw solid #4185EA;
     }
 

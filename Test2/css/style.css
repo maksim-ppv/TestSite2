@@ -611,9 +611,8 @@ button {
   }
 
   .logo img {
-    height: 100%;
-    -o-object-fit: cover;
-       object-fit: cover;
+    height: 2.604vw;
+    width: 2.604vw;
   }
 
   .menu {
@@ -777,6 +776,7 @@ button {
     line-height: 1.563vw;
     text-transform: uppercase;
     background: #FFFFFF;
+    color: #0F2240;
     border: 0.104vw solid #4185EA;
   }
 
@@ -2787,7 +2787,7 @@ button {
 
 @media (max-width: 576.98px) {
   #cube-loader .preloader-logo {
-    width: 20vw;
+    width: 13.333vw;
   }
 
   .rangeslider,
@@ -2949,7 +2949,8 @@ button {
   }
 
   .logo img {
-    height: 100%;
+    height: 10.667vw;
+    width: 10.667vw;
   }
 
   .menu {
@@ -3236,6 +3237,7 @@ button {
     line-height: 8vw;
     text-transform: uppercase;
     background: #FFFFFF;
+    color: #0F2240;
     border: 0.533vw solid #4185EA;
   }
 
@@ -3837,7 +3839,8 @@ button {
   }
 
   .logo img {
-    height: 100%;
+    height: 4.04vw;
+    width: 4.04vw;
   }
 
   .menu {
@@ -4012,6 +4015,7 @@ button {
     line-height: 3.027vw;
     text-transform: uppercase;
     background: #FFFFFF;
+    color: #0F2240;
     border: 0.202vw solid #4185EA;
   }
 
