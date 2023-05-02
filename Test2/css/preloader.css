@@ -22,9 +22,7 @@
 }
 
 #cube-loader .cube-loader {
-  width: 400px;
   margin: auto;
-  height: 200px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -38,6 +36,7 @@
 }
 
 #cube-loader .preloader-logo {
+  width: 75px;
   -webkit-animation: cube 3s infinite alternate;
           animation: cube 3s infinite alternate;
 }
@@ -76,12 +75,7 @@
 }
 
 @media (max-width: 576.98px) {
-  #cube-loader .cube-loader {
-    width: 200px;
-  }
-
   #cube-loader .preloader-logo {
-    width: 125px;
-    height: 12px;
+    width: 20vw;
   }
 }

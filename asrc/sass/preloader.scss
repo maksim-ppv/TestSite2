@@ -13,22 +13,18 @@
       margin: auto;
     }
     .cube-loader {
-      width: 400px;
       margin: auto;
-      height: 200px;
       display: flex;
       justify-content: center;
       align-items: center;
       position: relative;
-      @media (max-width: 576.98px){
-        width: 200px;
-      }
+
     }
     .preloader-logo {
+      width: 75px;
       animation: cube 3s infinite alternate;
       @media (max-width: 576.98px){
-        width: 125px;
-        height: 12px;
+        width: 20vw;
       }
     }
 
